@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ThemeOverlay.App.MaterialAlertDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_baseline_check_circle_outline_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/TitleSuccess"
+        android:textAllCaps="true"
+        android:textColor="@color/TextColorLight"
+        android:textSize="@dimen/TextSizeSmall" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/DescriptionSuccess"
+        android:textAllCaps="false"
+        android:textColor="@color/TextColorLight"
+        android:textSize="@dimen/TextSizeSmaller" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+
+            android:textColorHint="@color/colorPrimaryDark"
+            app:boxBackgroundColor="#033C34"
+            app:boxStrokeColor="@color/colorPrimaryDark"
+
+            >
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/InputTXID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/TextColorLight"
+                android:gravity="center"
+                android:inputType="text"
+                android:textSize="10sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/ButtonConfirm"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextButtonSuccess"
+            android:textAllCaps="true"
+            android:textColor="@color/White"
+            app:strokeColor="@color/White" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

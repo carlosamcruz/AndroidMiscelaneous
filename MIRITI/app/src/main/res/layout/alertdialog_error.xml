@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ThemeOverlay.App.MaterialAlertDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Red"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_baseline_error_outline_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/TitleError"
+        android:textAllCaps="true"
+        android:textColor="@color/TextColorLight"
+        android:textSize="@dimen/TextSizeSmall" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/DescriptionError"
+        android:textAllCaps="false"
+        android:textColor="@color/TextColorLight"
+        android:textSize="@dimen/TextSizeSmaller" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/ButtonTryAgain"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextButtonTryAgain"
+            android:textAllCaps="true"
+            android:textColor="@color/White"
+            app:strokeColor="@color/White" />
+
+    </LinearLayout>
+
+</LinearLayout>

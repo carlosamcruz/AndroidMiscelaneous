@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/BackgroundColor"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="left"
+            android:text="@string/TitleCKI"
+            android:textSize="@dimen/TextSizeSmall" />
+
+    <TextView
+            android:id="@+id/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/poppins_light"
+            android:gravity="left"
+            android:text="Como deseja acessar a carteira"
+            android:textSize="@dimen/TextSizeSmaller" />
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btnSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:text="Senha"/>
+        <Button
+                android:id="@+id/btnChave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="Chave"/>
+
+    </LinearLayout>
+
+</LinearLayout>
