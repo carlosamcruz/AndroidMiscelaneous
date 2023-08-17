@@ -16,26 +16,20 @@ Passo 2:
 Abrir a pasta onde o projeto foi criado C:...\NomeDoProjeto
         
 Deletar todos as pastas e arquivos, EXCETO:
-pastas
 
-  app
-  gradle
+pastas
+          app
+          gradle
 
 arquivos
 
-  .gitignore
-  
-  build.gradle
-  
-  gradle.properties
-  
-  gradlew
-  
-  gradlew.bat
-  
-  local.properties
-  
-  settings.gradle     
+          .gitignore
+          build.gradle
+          gradle.properties
+          gradlew
+          gradlew.bat
+          local.properties
+          settings.gradle     
       
 Copiar apenas a pasta "app" do projeto que se encontra na pasta clone;
       
