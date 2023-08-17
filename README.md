@@ -24,11 +24,17 @@ pastas
 arquivos
 
   .gitignore
+  
   build.gradle
+  
   gradle.properties
+  
   gradlew
+  
   gradlew.bat
+  
   local.properties
+  
   settings.gradle     
       
 Copiar apenas a pasta "app" do projeto que se encontra na pasta clone;
