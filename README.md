@@ -19,8 +19,8 @@ Deletar todos as pastas e arquivos, EXCETO:
 
 pastas
 
-          app
-          gradle
+        app
+        gradle
 
 arquivos
 
