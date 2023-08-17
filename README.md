@@ -18,6 +18,7 @@ Abrir a pasta onde o projeto foi criado C:...\NomeDoProjeto
 Deletar todos as pastas e arquivos, EXCETO:
 
 pastas
+
           app
           gradle
 
@@ -37,6 +38,7 @@ Voltar para a pasta do projeto Dummy em C:...\NomeDoProjeto
         
       Deletar a pasta "app" da pasta dummy       
       Colar a pasta "app" que foi copiada da pasta clonada
+
 Passo 3:      
       
 Abrir com o IntelliJ o projeto na pasta dummy C:...\NomeDoProjeto
